@@ -5,4 +5,213 @@
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+
+/* ==========================================================================
+   skin overrides
+   ========================================================================== */
+
+/* Colors */
+$background-color: #f7f7f7 !default;
+$text-color: #000 !default;
+$muted-text-color: #444 !default;
+$primary-color: #ff0000 !default;
+$border-color: mix(#fff, $text-color, 75%) !default;
+$footer-background-color: #444 !default;
+$link-color: #2dabff !default;
+$masthead-link-color: $text-color !default;
+$masthead-link-color-hover: $text-color !default;
+$navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
+
+
+/* system typefaces */
+$serif                        : "Playfair Display", Georgia, Times, serif !default;
+$sans-serif                   : "Work Sans", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$monospace                    : "Source Code Pro", Monaco, Consolas, "Lucida Console", monospace !default; //400,700
+
+/* sans serif typefaces */
+$sans-serif-narrow            : $sans-serif !default;
+$helvetica                    : Helvetica, "Helvetica Neue", Arial, sans-serif !default;
+$work-sans                     : "Work Sans", sans-serif !default; //400, 700
+
+/* serif typefaces */
+$georgia                      : Georgia, serif !default;
+$times                        : Times, serif !default;
+$bodoni                       : "Bodoni MT", serif !default;
+$calisto                      : "Calisto MT", serif !default;
+$garamond                     : Garamond, serif !default;
+$playfair-display             : "Playfair Display", serif !default;
+
+$global-font-family           : $monospace  !default;
+$header-font-family           : $serif  !default;
+$caption-font-family          : $sans-serif  !default;
+
+/* type scale */
+$type-size-1                  : 2.441em !default;  // ~39.056px
+$type-size-2                  : 1.953em !default;  // ~31.248px
+$type-size-3                  : 1.563em !default;  // ~25.008px
+$type-size-4                  : 1.25em !default;   // ~20px
+$type-size-5                  : 1em !default;      // ~16px
+$type-size-6                  : 0.75em !default;   // ~12px
+$type-size-7                  : 0.6875em !default; // ~11px
+$type-size-8                  : 0.625em !default;  // ~10px
+
+/* ========================================================================== */
 @import "minimal-mistakes"; // main partials
+/* ========================================================================== */
+
+/* Custom CSS */
+$portfolio-background-color: #424242;
+$portfolio-header-color: #424242;
+$portfolio-text-color: #9bc1cb;
+.page__content {
+  .notice,
+  .notice--primary,
+  .notice--info,
+  .notice--warning,
+  .notice--success,
+  .notice--danger {
+    color: $text-color;
+  }
+}
+
+.page__footer {
+  color: #fff !important; // override
+}
+.page__footer-follow .social-icons .fa {
+  color: inherit;
+}
+.site-title {
+    text-transform: uppercase;
+}
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-family: $monospace;
+}
+h3 {
+    font-family: $monospace;
+    font-weight:700;
+    text-transform: uppercase;
+}
+// Front
+body.front .page__hero--overlay {
+    min-height: 25em;
+}
+// Portfolio
+body.portfolio-theme {
+    background-color: $portfolio-background-color;
+    a, a:visited {
+        color:$portfolio-text-color;
+    }
+    a:hover {
+        color:white;
+    }
+    .greedy-nav, .masthead {
+        background-color: $portfolio-header-color;
+        a {
+            color: $portfolio-text-color;
+        }
+    }
+    .portfolio-year {
+        font-weight: 400;
+        font-size: $type-size-4;
+        border-top: 3px solid #fff;
+        border-bottom: 1px solid #fff;
+        display: block;
+        margin-bottom: 1em;
+        color: #fff;
+    }
+    .page__inner-wrap h1 {
+        color: #fff;
+    }
+    
+    .page__inner-wrap h2,
+    .page__inner-wrap h3,
+    .page__inner-wrap h4,
+    .page__inner-wrap p,
+    .page__inner-wrap {
+        color: #8a8a8a;
+    }
+    .page__meta {
+        p {
+            color: $portfolio-text-color;
+        }
+        a:visited {
+            color: $portfolio-text-color;
+        }
+        a:hover, a:active {
+            color: #fff;
+        }
+    }
+    .page__footer {
+        margin-top:0;
+        color: #8a8a8a;
+        background-color: $portfolio-background-color;
+    }
+    nav.pagination {
+        border-top:0;
+        a:visited, a:active {
+            color: $portfolio-background-color;
+        }
+        a:hover {
+            color: #fff;
+        }
+        a.disabled {
+            color:#8aacb4;
+        }
+    }
+    .pagination--pager {
+        border: 1px solid $portfolio-background-color;
+        background: $portfolio-text-color;
+    }
+    .masthead {
+        border-bottom: 0px solid #333;
+    }
+}
+// portfolio archive page
+.archive a {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.archive__item-excerpt {
+    margin-top: 0;
+    font-size: .65em;
+    color: #6D4C41;
+}
+.layout--archive {
+    // @media (min-width: 48em){
+    //     .grid__item .archive__item-teaser {
+    //         max-height: 100%;
+    //     }
+    // }
+    // @media (min-width: 37.5em) {
+    //     .grid__item .archive__item-teaser {
+    //         max-height: 100%;
+    //     }
+    // }
+   
+    // .grid__item .archive__item-teaser {
+    //     position: relative;
+    //     overflow: hidden;
+    //     width: 125px;
+    //     height: 125px;
+    // }
+    // .grid__item .archive__item-teaser img {
+    //     position: absolute;
+    //     top: 0;
+    //     left: 0;
+    //     max-width: none;
+    //     width: 300px;
+    .grid__item {
+        margin-bottom: 4em;
+    }
+}
+// body {
+//     opacity: 1;
+//     transition: 1s opacity;
+// }
+// body.fade-out {
+//     opacity: 0;
+//     transition: none;
+// }

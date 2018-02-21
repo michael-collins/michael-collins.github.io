@@ -5,7 +5,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "contrast", "dark", "dirt", "mint", "sunrise"
+minimal_mistakes_skin    : "contrast" # "default", "air", "contrast", "dark", "dirt", "mint", "sunrise"
 
 # Site Settings
 locale                   : "en"
@@ -261,9 +261,14 @@ defaults:
     values:
       layout: single
       author_profile: false
-      share: true
+      share: false
+      classes:
+        - portfolio-theme
+        - content
 
 collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
+
+future: true

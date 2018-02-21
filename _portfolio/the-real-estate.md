@@ -1,7 +1,8 @@
 ---
 title: "The Real Estate"
 category: exhibitions
-excerpt: 
+excerpt: 2012
+year: 2012
 header:
   image: /assets/images/portfolio/the-real-estate/theRealEstate_02.jpg
   teaser: /assets/images/portfolio/the-real-estate/theRealEstate_02.jpg
@@ -24,8 +25,6 @@ gallery:
     image_path: assets/images/portfolio/the-real-estate/theRealEstate_02.jpg
     alt: "Image of The Real Estate animated projection"
 ---
-
-2012  
 Single-channel Video  
 Front Projection
 

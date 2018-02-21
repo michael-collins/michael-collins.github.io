@@ -3,7 +3,9 @@
    ========================================================================== */
 
 $(document).ready(function(){
-
+    // $(function() {
+    //     $('body').removeClass('fade-out');
+    // });
   // Sticky footer
   var bumpIt = function() {
       $('body').css('margin-bottom', $('.page__footer').outerHeight(true));

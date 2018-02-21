@@ -1,7 +1,8 @@
 ---
 title: "American Cheese"
 category: exhibitions
-excerpt: 
+excerpt: 2012
+year: 2012
 header:
   image: /assets/images/portfolio/american-cheese/americancheese_z-corp_01.jpg
   teaser: /assets/images/portfolio/american-cheese/americancheese_z-corp_01.jpg
@@ -27,8 +28,6 @@ gallery:
     image_path: assets/images/portfolio/american-cheese/AmericanCheeseThreePanels_02.jpg
     alt: "Image of American Cheese animated projection"
 ---
-
-2012  
 3-channel Video, Z-Corp 3D Prints  
 Rear Projection
 

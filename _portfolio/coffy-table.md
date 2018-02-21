@@ -1,7 +1,8 @@
 ---
 title: "Coffy Table"
 category: furniture
-excerpt: 
+excerpt: 2013
+year: 2013
 header:
   image: /assets/images/portfolio/coffy-table/COFFEETABLE_01.jpg
   teaser: /assets/images/portfolio/coffy-table/COFFEETABLE_01.jpg
@@ -27,8 +28,6 @@ gallery:
     image_path: assets/images/portfolio/coffy-table/COFFEETABLE_05.jpg
     alt: "Studio image of Coffy Table"
 ---
-
-2013  
 Bamboo Veneer 3/4" Pywood  
 Spar Urethane
 

@@ -1,10 +1,11 @@
 ---
 title: "PRIVY"
 category: exhibitions
-excerpt: 
+excerpt: 2016
+year: 2016
 header:
-  image: /assets/images/portfolio/privy-exhibition/privy-gallery-01.jpg
-  teaser: /assets/images/portfolio/privy-exhibition/privy-gallery-01.jpg
+  image: /assets/images/portfolio/privy-exhibition/privy-gallery-02.jpg
+  teaser: /assets/images/portfolio/privy-exhibition/privy-gallery-02.jpg
 sidebar:
   - title:
     image: 
@@ -19,8 +20,6 @@ gallery:
     alt: "PRIVY exhibition gallery image"
 
 ---
-
-2016  
 Single-channel video, HTML, Javascript
 
 PRIVY was an exploration of radical data transparency. Through pervasive use of digital devices, most of the actions, conversations, and movements a person experiences are captured and transferred as digital data and metadata. But not all. In this work, I self-report personal data that is resistant to digital capture and transfer by automated sensors and applications. I also expose data that is normally encrypted and obscured from public access including email metadata. Data is connected through a series of ready-made mobile and web-based applications as well as custom scripts. This data is aggregated along with other automatically collected data, and then visualized on a custom website accessible for public and government consumption. The result is a visual spectacle that accesses multiple meanings of the work’s title.

@@ -1,7 +1,8 @@
 ---
 title: "SubRosa"
 category: exhibitions
-excerpt: 
+excerpt: 2012
+year: 2012
 header:
   image: /assets/images/portfolio/subrosa/subRosa-000.jpg
   teaser: /assets/images/portfolio/subrosa/subRosa-000.jpg
@@ -20,12 +21,7 @@ gallery:
   - url: /assets/images/portfolio/subrosa/subRosa-003.jpg
     image_path: assets/images/portfolio/subrosa/subRosa-003.jpg
     alt: "Image of SubRosa animated projection"
-  - url: /assets/images/portfolio/subrosa/subRosa-000.jpg
-    image_path: assets/images/portfolio/subrosa/subRosa-000.jpg
-    alt: "Image of SubRosa animated projection"
 ---
-
-2012  
 Single-channel Video  
 Projection Screen  
 

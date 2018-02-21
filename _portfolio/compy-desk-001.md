@@ -1,7 +1,8 @@
 ---
 title: "Compy Desk Triple Aught One (001)"
 category: furniture
-excerpt: 
+excerpt: 2011
+year: 2011
 header:
   image: /assets/images/portfolio/compy-desk-001/front_detail.jpg
   teaser: /assets/images/portfolio/compy-desk-001/front_detail.jpg
@@ -21,8 +22,6 @@ gallery:
     image_path: assets/images/portfolio/compy-desk-001/side_detail.jpg
     alt: "Image of Compy Desk 001"
 ---
-
-2011  
 3/4" Birch Veneer Plywood  
 Spar Urethane  
 

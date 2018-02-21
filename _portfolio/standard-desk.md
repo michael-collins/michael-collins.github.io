@@ -1,7 +1,8 @@
 ---
 title: "Standard Desk"
 category: furniture
-excerpt: 
+excerpt: 2017
+year: 2017
 header:
   image: /assets/images/portfolio/standard-desk/rothrock-standard-desk-1.jpg
   teaser: /assets/images/portfolio/standard-desk/rothrock-standard-desk-1.jpg
@@ -48,11 +49,8 @@ gallery:
     image_path: assets/images/portfolio/standard-desk/rothrock-standard-desk-12.jpg
     alt: "Image of Standard Desk"
 ---
-
-2017
-
 {% include video id="168879657" provider="vimeo" %}
 
-I designed the Standard Desk to be a top quality furniture product sold by Rothrock Furniture Company. Made of premium finished hardwood plywood, this desk is as durable, requires no tools for assembly and disassembly, and is available for purchase online.
+I designed the Standard Desk for [Rothrock Furniture Company](rothrockfurniture.com). Made of premium finished hardwood plywood, this desk is as durable, requires no tools for assembly and disassembly, and is available for purchase online.
 
 {% include gallery caption="" %}

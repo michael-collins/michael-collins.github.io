@@ -1,7 +1,8 @@
 ---
 title: "Interspatial"
 category: exhibitions
-excerpt: 
+excerpt: 2011
+year: 2011
 header:
   image: /assets/images/portfolio/interspatial/polymer_v1_comp1.jpg
   teaser: /assets/images/portfolio/interspatial/polymer_v1_comp1.jpg
@@ -17,9 +18,7 @@ gallery:
   - url: /assets/images/portfolio/interspatial/polymer_v1_comp1.jpg
     image_path: assets/images/portfolio/interspatial/polymer_v1_comp1.jpg
     alt: "Still of Insterspatial multitouch interaction"
----
-
-2011  
+---  
 Single-channel Video  
 Multi-touch Interface  
 
