@@ -1,8 +1,8 @@
 # main links
 main:
-  # - title: "Research"
-  #   url: /projects/
-  - title: "Art/Design"
+  - title: "Research"
+    url: /
+  - title: "Work Archive"
     url: /portfolio/
   - title: "Teaching"
     url: /teaching/

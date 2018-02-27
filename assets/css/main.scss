@@ -60,6 +60,8 @@ $type-size-8                  : 0.625em !default;  // ~10px
 /* ========================================================================== */
 
 /* Custom CSS */
+$header-background-color:#333;
+$header-link-color:#efefef;
 $portfolio-background-color: #424242;
 $portfolio-header-color: #424242;
 $portfolio-text-color: #9bc1cb;
@@ -94,6 +96,37 @@ h3 {
     font-weight:700;
     text-transform: uppercase;
 }
+// All pages
+.page__title {
+    margin-top: 1em;
+}
+.masthead {
+    border:none;
+}
+.greedy-nav, .masthead {
+    background-color: $header-background-color;
+    a {
+        color: $header-link-color;
+    }
+    a:hover {
+        color: mix(#333, $header-link-color , 30%);
+    }
+}
+.teaching-theme .greedy-nav, .teaching-theme .masthead {
+    background-color: #000;
+    a {
+        color: $header-link-color;
+    }
+    a:hover {
+        color: mix(#333, $header-link-color , 30%);
+    }
+}
+.portfolio-theme .greedy-nav, .portfolio-theme .masthead {
+        background-color: $portfolio-header-color;
+        a {
+            color: $portfolio-text-color;
+        }
+    }
 // Front
 body.front .page__hero--overlay {
     min-height: 25em;
@@ -106,12 +139,6 @@ body.portfolio-theme {
     }
     a:hover {
         color:white;
-    }
-    .greedy-nav, .masthead {
-        background-color: $portfolio-header-color;
-        a {
-            color: $portfolio-text-color;
-        }
     }
     .portfolio-year {
         font-weight: 400;
@@ -170,48 +197,60 @@ body.portfolio-theme {
     }
 }
 // portfolio archive page
-.archive a {
-    text-transform: uppercase;
-    font-weight: 400;
-}
-.archive__item-excerpt {
-    margin-top: 0;
-    font-size: .65em;
-    color: #6D4C41;
-}
-.layout--archive {
-    // @media (min-width: 48em){
-    //     .grid__item .archive__item-teaser {
-    //         max-height: 100%;
-    //     }
-    // }
-    // @media (min-width: 37.5em) {
-    //     .grid__item .archive__item-teaser {
-    //         max-height: 100%;
-    //     }
-    // }
-   
-    // .grid__item .archive__item-teaser {
-    //     position: relative;
-    //     overflow: hidden;
-    //     width: 125px;
-    //     height: 125px;
-    // }
-    // .grid__item .archive__item-teaser img {
-    //     position: absolute;
-    //     top: 0;
-    //     left: 0;
-    //     max-width: none;
-    //     width: 300px;
-    .grid__item {
-        margin-bottom: 4em;
+@media (min-width: 64em) {
+    .archive {
+        float: right;
+        width: calc(100% - 200px);
+        padding-right: 200px;
     }
 }
-// body {
-//     opacity: 1;
-//     transition: 1s opacity;
+// @media (min-width: 48em) {
+//     .grid__item .archive__item-teaser:hover {
+//         max-height: 140px;
+//     }
+//     .grid__item .archive__item-teaser {
+//         max-height: 100px;
+//     }
 // }
-// body.fade-out {
-//     opacity: 0;
-//     transition: none;
-// }
+.layout--archive {
+    h3 {
+        border-top: 6px solid #333;
+        // border-bottom:3px solid #333;
+        clear: both;
+        padding: 0em 0 1em 0;
+    }
+    .archive {
+        // width: 100%;
+        // padding-right: 0;
+        // float: left;
+    }
+    .archive a {
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+    .archive__item-excerpt {
+        margin-top: 0;
+        font-size: .65em;
+        color: #6D4C41;
+    }
+    .archive .grid__wrapper {
+        margin-right:0;
+    }
+    .grid__item {
+        // clear: none;
+        margin-bottom: 1em;
+    }
+    .grid__item:nth-child(4n+1) {
+        clear: both;
+    }
+    .grid__wrapper {
+        clear: both;
+        float: left;
+        // padding:1em;
+    }
+}
+
+// Teaching
+.teaching-theme .page__hero--overlay {
+    filter: contrast(500%);
+}

@@ -1,6 +1,6 @@
 ---
 title: "American Cheese"
-category: exhibitions
+category: "exhibitions"
 excerpt: 2012
 year: 2012
 header:

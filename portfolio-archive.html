@@ -1,12 +1,30 @@
 ---
 layout: archive
-title:
+title: Works
 permalink: /portfolio/
 author_profile: false
+title-icon: /svg/work-icon-svg.html
 ---
 
+<h3>Art Installations</h3>
 <div class="grid__wrapper">
-  {% for post in site.portfolio %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
+{% assign items = site.portfolio | where:"category","exhibitions" | sort: 'year' | reverse %}
+{% for post in items %}
+
+{% include archive-single.html type="grid" %}
+{% endfor %}
 </div>
+<h3>Furniture</h3>
+<div class="grid__wrapper"> 
+{% assign items = site.portfolio | where:"category","furniture" | sort: 'year' | reverse  %}
+{% for post in items %}
+{% include archive-single.html type="grid" %}
+{% endfor %}
+</div> 
+<h3>Identities</h3>
+<div class="grid__wrapper">
+{% assign items = site.portfolio | where:"category","identity" | sort: 'year' | reverse  %}
+{% for post in items %}
+{% include archive-single.html type="grid" size="2" %}
+{% endfor %}
+</div> 

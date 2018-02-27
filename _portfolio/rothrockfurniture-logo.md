@@ -1,6 +1,6 @@
 ---
 title: "Rothrock Furniture Branding"
-category: furniture
+category: identity
 excerpt: 2013
 year: 2013
 header:
