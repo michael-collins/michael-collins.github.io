@@ -4,8 +4,8 @@ category: exhibitions
 excerpt: 2011
 year: 2011
 header:
-  image: /assets/images/portfolio/interspatial/polymer_v1_comp1.jpg
-  teaser: /assets/images/portfolio/interspatial/polymer_v1_comp1.jpg
+  image: /assets/images/portfolio/interspatial/interspatial-front.jpg
+  teaser: /assets/images/portfolio/interspatial/interspatial-front.jpg
 sidebar:
   - title:
     image:
@@ -15,9 +15,12 @@ gallery:
   - url: /assets/images/portfolio/interspatial/07_student_polymer_full_production.559.png
     image_path: assets/images/portfolio/interspatial/07_student_polymer_full_production.559.png
     alt: "Image of Insterspatial projection display"
-  - url: /assets/images/portfolio/interspatial/polymer_v1_comp1.jpg
-    image_path: assets/images/portfolio/interspatial/polymer_v1_comp1.jpg
+  - url: /assets/images/portfolio/interspatial/interspatial-front.jpg
+    image_path: assets/images/portfolio/interspatial/interspatial-front.jpg
     alt: "Still of Insterspatial multitouch interaction"
+  - url: /assets/images/portfolio/interspatial/breakdown.jpg
+    image_path: assets/images/portfolio/interspatial/breakdown.jpg
+    alt: "Device parts labelling"
 ---  
 Single-channel Video  
 Multi-touch Interface  

@@ -112,7 +112,7 @@ h3 {
         color: mix(#333, $header-link-color , 30%);
     }
 }
-.teaching-theme .greedy-nav, .teaching-theme .masthead {
+.curriculum-theme .greedy-nav, .curriculum-theme .masthead {
     background-color: #000;
     a {
         color: $header-link-color;
@@ -213,6 +213,9 @@ body.portfolio-theme {
 //     }
 // }
 .layout--archive {
+    h1.page__title {
+        font-size: 4em;
+    }
     h3 {
         border-top: 6px solid #333;
         // border-bottom:3px solid #333;
@@ -250,7 +253,7 @@ body.portfolio-theme {
     }
 }
 
-// Teaching
-.teaching-theme .page__hero--overlay {
+// Curriculum
+.curriculum-theme .page__hero--overlay {
     filter: contrast(500%);
 }

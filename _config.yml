@@ -265,9 +265,23 @@ defaults:
       classes:
         - portfolio-theme
         - content
+  # _curriculum
+  - scope:
+      path: ""
+      type: curriculum
+    values:
+      layout: single
+      author_profile: false
+      share: false
+      classes:
+        - curriculum-theme
+        - content
 
 collections:
   portfolio:
+    output: true
+    permalink: /:collection/:path/
+  curriculum:
     output: true
     permalink: /:collection/:path/
 

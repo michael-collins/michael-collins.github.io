@@ -27,6 +27,12 @@ gallery:
   - url: /assets/images/portfolio/american-cheese/AmericanCheeseThreePanels_02.jpg
     image_path: assets/images/portfolio/american-cheese/AmericanCheeseThreePanels_02.jpg
     alt: "Image of American Cheese animated projection"
+  - url: /assets/images/portfolio/american-cheese/ac-projector.jpg
+    image_path: assets/images/portfolio/american-cheese/ac-projector.jpg
+    alt: "Image of American Cheese 3D Print"
+  - url: /assets/images/portfolio/american-cheese/ac-concept.jpg
+    image_path: assets/images/portfolio/american-cheese/ac-concept.jpg
+    alt: "Image of American Cheese animated projection"
 ---
 3-channel Video, Z-Corp 3D Prints  
 Rear Projection

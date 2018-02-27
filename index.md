@@ -17,7 +17,7 @@ header:
 
 [OER Schema](http://oerschema.org)
 
-# Updates
+<!-- # Updates -->
 
 {% for post in site.posts %}
 <div class="row">
