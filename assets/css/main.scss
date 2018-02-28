@@ -257,3 +257,32 @@ body.portfolio-theme {
 .curriculum-theme .page__hero--overlay {
     filter: contrast(500%);
 }
+
+// mobile menu
+.greedy-nav button {
+    color: #fff;
+    background-color: $primary-color;
+}
+.greedy-nav .hidden-links {
+    border: 1px solid $primary-color;
+    background: $primary-color;
+
+    &:before {
+        border-color: $primary-color transparent;
+    }
+    &:after {
+        border-color: $primary-color transparent;
+    }
+    
+    a {
+        color: white;
+    }
+    a:hover {
+        color:black;
+        background:transparent;
+    }
+    li {
+        display: block;
+        border-bottom: 1px solid #ff6559;
+    }
+}
