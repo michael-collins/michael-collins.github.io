@@ -13,8 +13,13 @@ sidebar:
     text:
 published: true
 ---
+## Roles:
+
+- Founding Faculty and Lead Faculty from the Penn State School of Visual Arts.
+- DMD Program and course designer
+- Course Instructor
+
 ## Description:
-<!-- ![DMD banner art](/assets/images/dmd-website-banner.jpg) -->
 
 DMD 100: Digital Multimedia Design Foundations introduces design process and thinking skills to support and facilitate creative and reasoned approaches to ambiguous and ill-defined problem spaces. It introduces concepts, skills, language, and principles of practice related to art and design, communications, and information sciences — three discreet disciplines in which students can pursue further study while developing their learning pathways. With the aid of a standard design process, we walk through methods, tools, and mental attitudes necessary to approach ambiguous problems. This course is not meant to be a comprehensive design process catalog, and instead should inspire and build confidence in the act of design. The concept of "design" for DMD students is a frame through which complex issues can be discovered and defined and solutions can be best developed and delivered.
 
@@ -31,6 +36,8 @@ In DMD 100: Digital Multimedia Design Foundations students are exposed to a broa
 The Digital Multimedia Design Program promotes the values of imagination and creativity as human resources. **Digital** media generally refers to the storage and transmission of information in increasingly varied **multimedia** digital formats and devices, and within a changing array of modes of communication. **Design** is a means by which we respond to change in a purposeful way. By focusing on critical issues and opportunities, designers develop plans for taking innovative and strategic actions. Hence, digital design shapes and impacts the physical and virtual spaces people inhabit. Over the course of this program, students will produce projects that stimulate sound habits of mind, develop proficiencies of practice, and foster critical sensibilities for addressing issues.
 
 ### Pathways
+
+![DMD banner art](/assets/images/curriculum/dmd-horizontal-wordmark.png)
 
 Though design is part of the core identity of the program, each student will develop their own pathway. A pathway is literally a sequence of courses. However, students have great control over choosing which courses to combine into a sequence. To help them get started, there are pre-made course sequences available on the [DMD Program Hub \(dmd.psu.edu\)](http://dmd.psu.edu).
 

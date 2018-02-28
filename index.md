@@ -6,7 +6,7 @@ classes:
 header:
   overlay_color: "#000"
   overlay_filter: "0.25"
-  overlay_image: /assets/images/header-bg.jpg
+  overlay_image: /assets/images/front-banner.jpg
  
 ---
 # Current Projects
