@@ -27,4 +27,4 @@ gallery:
 ---
 The ELMS Learning Network identity was developed in close collaboration with the ELMS:LN core dev team. All aspects of the project are open-source, including branding art files. Vector, Raster, and CAD files available. [Fork it on github](https://github.com/elmsln/elmsln-logos). To learn more about the project, visit [ELMSLN.org](https://elmsln.org).
 
-{% include gallery caption="" %}
+{% include gallery-advanced size="1" caption="" %}

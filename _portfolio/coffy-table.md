@@ -33,4 +33,4 @@ Spar Urethane
 
 The Coffy Table was designed and CNC fabricated for a colleague and mentor. The design juxtaposes symmetry and asymmetry to create an aesthetic that borrows a bit from modernism, but is distinctly contemporary. The Coffy Table is meant to be used as a standard coffee table as well as a computer table when the user is seated on the floor. It can be disassembled without tools for storage when more space is needed.
 
-{% include gallery caption="" %}
+{% include gallery-advanced size="1" caption="" %}

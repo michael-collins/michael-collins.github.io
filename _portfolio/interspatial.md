@@ -34,4 +34,4 @@ This experience was designed to encourage a user’s recognition that not everyo
 {% include video id="19448421" provider="vimeo" %}
 
 
-{% include gallery caption="" %}
+{% include gallery-advanced size="1" caption="" %}

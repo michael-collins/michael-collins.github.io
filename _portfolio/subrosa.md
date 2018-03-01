@@ -29,4 +29,4 @@ Projection Screen
 
 Sub Rosa is an altered digital reproduction of a real rose that I purchased from a local store. I posited that by presenting the model with meta data and content, which served to catalogue the flower mechanisms and provide alternate functionality for its parts, how we perceive this object—and by extension, all objects—would be interrogated.
 
-{% include gallery caption="" %}
+{% include gallery-advanced size="3" caption="" %}

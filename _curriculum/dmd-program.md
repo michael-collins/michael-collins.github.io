@@ -15,9 +15,9 @@ published: true
 ---
 ## Roles:
 
-- Founding Faculty and Lead Faculty from the Penn State School of Visual Arts.
-- DMD Program and course designer
-- Course Instructor
+- Founding faculty and lead faculty from the Penn State School of Visual Arts.
+- DMD program and course designer
+- Course instructor
 
 ## Description:
 
@@ -27,9 +27,7 @@ DMD 100: Digital Multimedia Design Foundations introduces design process and thi
 
 The program is comprised of three program-exclusive spine courses and six prescribed \(required\) "core" courses – two from each contributing college: Arts & Architecture, Communications, and Information Sciences & Technology. The core courses will provide skills and context pertinent to the disciplines from which they reside. The spine courses provide opportunities to frame and combine experiences from these disciplines.
 
-### DMD 100: Digital Multimedia Design Foundations
-
-In DMD 100: Digital Multimedia Design Foundations students are exposed to a broad design perspective so they can apply it as a conceptual _frame_ for their studies. In DMD 300: Digital Multimedia Design Studio, students will apply their experiences from previous coursework to narrow their focus while producing projects in collaboration with their peers. DMD 400: Digital Multimedia Design Capstone is the capstone course in which they will create an entirely self-directed design project for inclusion in an online thesis project exhibition.
+In DMD 100: Digital Multimedia Design Foundations, students are exposed to a broad design perspective so they can apply it as a conceptual _frame_ for their studies. In DMD 300: Digital Multimedia Design Studio, students will apply their experiences from previous coursework to narrow their focus while producing projects in collaboration with their peers. DMD 400: Digital Multimedia Design Capstone is the capstone course in which they will create an entirely self-directed design project for inclusion in an online thesis project exhibition.
 
 ### Mission
 

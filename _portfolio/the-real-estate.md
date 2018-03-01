@@ -32,4 +32,4 @@ Front Projection
 
 The Real Estate was an animation manufactured to be commentary of artificial consumer realities. The pursuit of the American dream is reinterpreted as a superficial consumer act, spurred on through marketing and economic forces. This work uses marketing data that was extracted from a web-based real-estate ad for a cheap house for sale in Detroit, MI.
 
-{% include gallery caption="" %}
+{% include gallery-advanced size="1" caption="" %}

@@ -27,8 +27,4 @@ gallery:
 ---
 The Rothrock Furniture Company was started in January of 2013, named after Rothrock State Forest in central Pennsylvania. Rothrock Furniture Co. is a furniture design company that seeks modern approaches to a traditional craft, and therefore required a logo that planted it both in the past and future.
 
-<img src="/assets/images/portfolio/rothrockfurniture-logo/rothrock-logo-web-02.jpg">
-<br><br>
-<img src="/assets/images/portfolio/rothrockfurniture-logo/rf-sticker-bw-01.jpg">
-<br><br>
-<img src="/assets/images/portfolio/rothrockfurniture-logo/rf-sticker-bw-02.jpg">
+{% include gallery-advanced size="1" caption="" %}

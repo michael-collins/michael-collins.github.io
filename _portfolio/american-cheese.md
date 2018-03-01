@@ -41,4 +41,4 @@ The American Cheese installation consisted of three looping animations derived f
 
 Other People's Phenomenologies (OPP) was a joint exhibition with Ian Brill and myself. The exhibition was held in the Edwin W. Zoller Gallery in the Visual Arts Building at Penn State University from April 13th – 20th, 2012. I had three works in OPP; American Cheese, Sub Rosa II, and The Real Estate. All of the works were looping CGI animations, which were projected on either custom rear-projection screens or directly onto the gallery wall.
 
-{% include gallery caption="" %}
+{% include gallery-advanced size="1" caption="" %}

@@ -18,7 +18,6 @@ gallery:
   - url: /assets/images/portfolio/privy-exhibition/privy-gallery-02.jpg
     image_path: assets/images/portfolio/privy-exhibition/privy-gallery-02.jpg
     alt: "PRIVY exhibition gallery image"
-
 ---
 Single-channel video, HTML, Javascript
 
@@ -26,4 +25,4 @@ PRIVY was an exploration of radical data transparency. Through pervasive use of 
 
 PRIVY was projected live in the Palmer Museum of Art at Penn State's University Park campus during the Expanded Practice junior faculty group show. The project was updated from October to December 2016. Some of the features have since been disabled, but the website can be accessed at the following URL: [http://michaelcollins.xyz/mcc/](http://michaelcollins.xyz/mcc/)
 
-{% include gallery caption="" %}
+{% include gallery-advanced size="1" caption="" %}

@@ -38,4 +38,4 @@ Slotted leg attachment points: 8
 Rounded edges and corners  
 Reversible parts  
 
-{% include gallery caption="" %}
+{% include gallery-advanced size="1" caption="" %}

@@ -53,4 +53,4 @@ gallery:
 
 I designed the Standard Desk for [Rothrock Furniture Company](rothrockfurniture.com). Made of premium finished hardwood plywood, this desk is as durable, requires no tools for assembly and disassembly, and is available for purchase online.
 
-{% include gallery caption="" %}
+{% include gallery-advanced size="1" caption="" %}

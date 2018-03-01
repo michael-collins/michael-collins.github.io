@@ -24,4 +24,4 @@ gallery:
 ---
 This logo was created for the [oerschema.org](oerschema.org) project, a metadata project focused on bringing pedagogical vocabulary to the semantic web.
 
-{% include gallery caption="" %}
+{% include gallery-advanced size="1" caption="" %}
