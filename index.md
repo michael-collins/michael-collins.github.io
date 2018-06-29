@@ -4,18 +4,22 @@ author_profile: false
 classes:
   - front
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.25"
+  overlay_color: "#37c6fd"
+  overlay_filter: "0.10"
   overlay_image: /assets/images/front-banner.jpg
  
 ---
-# Current Projects
+# Recent
 
+## OER Camp, 2018
 
-[DMD Program](http://dmd.psu.edu)
+[Workshop Recap by Katrina Wehr](https://medium.com/@katrina.m.wehr/oer-camp-2018-summary-2c8b34a3f341)
 
+[Workshop documentation](https://open-curriculum.gitbooks.io/oer-camp-2018/content/)
 
-[OER Schema](http://oerschema.org)
+**Related project:**
+
+[OER Schema]({{ "portfolio/oerschema/" | prepend: site.baseurl }})
 
 <!-- # Updates -->
 

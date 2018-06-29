@@ -64,7 +64,7 @@ $header-background-color:#333;
 $header-link-color:#efefef;
 $portfolio-background-color: #424242;
 $portfolio-header-color: #424242;
-$portfolio-text-color: #9bc1cb;
+$portfolio-link-color: #9bc1cb;
 .page__content {
   .notice,
   .notice--primary,
@@ -75,6 +75,14 @@ $portfolio-text-color: #9bc1cb;
     color: $text-color;
   }
 }
+
+// utilities
+.bw-contrast-1 {
+    -webkit-filter: contrast(1.9) grayscale(1);
+    filter: contrast(1.9) grayscale(1);
+  }
+
+// end Utility
 
 .page__footer {
   color: #fff !important; // override
@@ -95,6 +103,7 @@ h3 {
     font-family: $monospace;
     font-weight:700;
     text-transform: uppercase;
+    color: #e0e0e0;
 }
 // All pages
 .page__title {
@@ -124,7 +133,7 @@ h3 {
 .portfolio-theme .greedy-nav, .portfolio-theme .masthead {
         background-color: $portfolio-header-color;
         a {
-            color: $portfolio-text-color;
+            color: $portfolio-link-color;
         }
     }
 // Front
@@ -135,7 +144,7 @@ body.front .page__hero--overlay {
 body.portfolio-theme {
     background-color: $portfolio-background-color;
     a, a:visited {
-        color:$portfolio-text-color;
+        color:$portfolio-link-color;
     }
     a:hover {
         color:white;
@@ -153,19 +162,23 @@ body.portfolio-theme {
         color: #fff;
     }
     
-    .page__inner-wrap h2,
-    .page__inner-wrap h3,
-    .page__inner-wrap h4,
     .page__inner-wrap p,
     .page__inner-wrap {
         color: #8a8a8a;
     }
+    
+    .page__inner-wrap h2,
+    .page__inner-wrap h3,
+    .page__inner-wrap h4 {
+        color: #e0e0e0;
+    }
+
     .page__meta {
         p {
-            color: $portfolio-text-color;
+            color: $portfolio-link-color;
         }
         a:visited {
-            color: $portfolio-text-color;
+            color: $portfolio-link-color;
         }
         a:hover, a:active {
             color: #fff;
@@ -190,7 +203,7 @@ body.portfolio-theme {
     }
     .pagination--pager {
         border: 1px solid $portfolio-background-color;
-        background: $portfolio-text-color;
+        background: $portfolio-link-color;
     }
     .masthead {
         border-bottom: 0px solid #333;

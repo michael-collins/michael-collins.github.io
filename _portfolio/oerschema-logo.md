@@ -12,6 +12,9 @@ sidebar:
     image_alt: "OER Schema logo"
     text:
 gallery:
+  - url: /assets/images/portfolio/oerschema-logo/schema-stickers@2x.jpg
+    image_path: assets/images/portfolio/oerschema-logo/schema-stickers@2x.jpg
+    alt: "OER Schema stickers"
   - url: /assets/images/portfolio/oerschema-logo/oerschema-logo-horizontal.png
     image_path: assets/images/portfolio/oerschema-logo/oerschema-logo-horizontal.png
     alt: "OER Schema logo horizontal"
