@@ -90,9 +90,6 @@ $portfolio-link-color: #9bc1cb;
 .page__footer-follow .social-icons .fa {
   color: inherit;
 }
-.site-title {
-    text-transform: uppercase;
-}
 h1 {
     font-size: 3em;
 }
@@ -103,7 +100,7 @@ h3 {
     font-family: $monospace;
     font-weight:700;
     text-transform: uppercase;
-    color: #e0e0e0;
+    color: #000000;
 }
 // All pages
 .page__title {
@@ -136,6 +133,11 @@ h3 {
             color: $portfolio-link-color;
         }
     }
+.greedy-nav a.site-title {
+    text-transform: uppercase;
+    border: 5px solid white;
+    padding: 0.5rem 0.5rem;
+}
 // Front
 body.front .page__hero--overlay {
     min-height: 25em;
@@ -289,6 +291,7 @@ body.portfolio-theme {
     
     a {
         color: white;
+        padding: 0.5rem;
     }
     a:hover {
         color:black;
