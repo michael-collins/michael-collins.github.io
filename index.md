@@ -13,21 +13,29 @@ header:
 
 ## EDUI Conference, 2018
 
-Slides: [REMIXING OPEN CONTENT + PEDAGOGY WITH OERSCHEMA](https://docs.google.com/presentation/d/e/2PACX-1vSul0t5D8mE7e_pQqHd-7XKMBwMiNWvlX_qkBzwnurM0zcbcrM0EkylM1T8EpzPKJwcxXfC5uAcsrPs/pub?start=false&loop=false&delayms=3000)
+Presentation Slides: [REMIXING OPEN CONTENT + PEDAGOGY WITH OERSCHEMA](https://docs.google.com/presentation/d/e/2PACX-1vSul0t5D8mE7e_pQqHd-7XKMBwMiNWvlX_qkBzwnurM0zcbcrM0EkylM1T8EpzPKJwcxXfC5uAcsrPs/pub?start=false&loop=false&delayms=3000)
 
 ## MADE Symposium, 2018
 
-Slides: [MADE Symposium Design Thinking Workshop](https://docs.google.com/presentation/d/e/2PACX-1vTcsV4orqbKRF14ArwJybb-8LIC4eFkp0rVE07Qm_hhpcrVIfnXAKbnarO_KCSrXGBAa9S9ABvHSHri/pub?start=false&loop=false&delayms=3000)
+Workshop Slides: [MADE Symposium Design Thinking Workshop](https://docs.google.com/presentation/d/e/2PACX-1vTcsV4orqbKRF14ArwJybb-8LIC4eFkp0rVE07Qm_hhpcrVIfnXAKbnarO_KCSrXGBAa9S9ABvHSHri/pub?start=false&loop=false&delayms=3000)
 
 ## OER Camp, 2018
 
-[Workshop Recap by Katrina Wehr](https://medium.com/@katrina.m.wehr/oer-camp-2018-summary-2c8b34a3f341)
-
-[Workshop documentation](https://open-curriculum.gitbooks.io/oer-camp-2018/content/)
+1. [Workshop Recap by Katrina Wehr](https://medium.com/@katrina.m.wehr/oer-camp-2018-summary-2c8b34a3f341)
+2. [Workshop documentation](https://open-curriculum.gitbooks.io/oer-camp-2018/content/)
 
 **Related project:**
 
 [OER Schema]({{ "portfolio/oerschema/" | prepend: site.baseurl }})
+
+
+## Digitally Engaged Learning Conference (DEL), 2017
+
+Presentation Slides: [CRITIQUE IN ONLINE LEARNING SPACES](https://docs.google.com/presentation/d/e/2PACX-1vQ9VtqBfe1JEsOJlck8vZsVUuk3RAdLQjfZunBsei2345xLCuXgP9JOKtg9UBVCtF2_DMqlXEF0KMJY/pub?start=false&loop=false&delayms=3000)
+
+> “danger...of judging intellectual phenomena in a subsumptive, uninformed and administrative manner and assimilating them into the prevailing constellations of power which the intellect ought to expose.”
+>
+>– Adorno
 
 <!-- # Updates -->
 
