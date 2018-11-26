@@ -12,9 +12,9 @@ sidebar:
     image:
     image_alt:
     text:
-    gallery:
-  - url: /assets/images/portfolio/oerschema-project/oerschema-project-stickers.png
-    image_path: assets/images/portfolio/oerschema-project/oerschema-project-stickers.png
+gallery:
+  - url: /assets/images/portfolio/oerschema-project/oerschema-project-stickers.jpg
+    image_path: assets/images/portfolio/oerschema-project/oerschema-project-stickers.jpg
     alt: "oer schema project image"
   - url: /assets/images/portfolio/oerschema-project/oerschema-project-01.png
     image_path: assets/images/portfolio/oerschema-project/oerschema-project-01.png
