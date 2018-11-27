@@ -1,6 +1,6 @@
 ---
 title: "Coffy Table"
-category: furniture
+category: products
 excerpt: 2013
 year: 2013
 header:
