@@ -23,6 +23,6 @@ gallery:
     image_path: assets/images/portfolio/experiments/data-query-builder-2.png
     alt: "data query builder"
 ---
-### Submissions Query Builder: Wireframes
+### Submission Query Builder: Wireframes
 {% include video id="302940448" provider="vimeo" %}
 {% include gallery-advanced size="1" caption="" %}
