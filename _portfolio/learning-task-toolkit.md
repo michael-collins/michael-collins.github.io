@@ -26,4 +26,6 @@ gallery:
 ---
 I modeled this toolkit after reading the book, _[10 Steps to Complex Learning](http://www.tensteps.info/)_. This toolkit is not meant as a full representation of the ideas in the book, rather a lightweight way of visualizing course components and learning tasks when building courses.
 
+### Download: [learning-task-toolkit.pdf]({{site.baseurl}}/assets/images/portfolio/experiments/learning-task-toolkit.pdf)
+
 {% include gallery-advanced size="1" caption="" %}
