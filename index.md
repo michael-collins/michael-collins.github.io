@@ -21,8 +21,7 @@ Workshop Slides: [MADE Symposium Design Thinking Workshop](https://docs.google.c
 
 ## OER Camp, 2018
 
-1. [Workshop Recap by Katrina Wehr](https://medium.com/@katrina.m.wehr/oer-camp-2018-summary-2c8b34a3f341)
-2. [Workshop documentation](https://open-curriculum.gitbooks.io/oer-camp-2018/content/)
+1. [Workshop documentation](https://open-curriculum.gitbooks.io/oer-camp-2018/content/)
 
 **Related project:**
 
