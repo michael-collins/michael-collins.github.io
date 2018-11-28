@@ -26,14 +26,14 @@ title-icon: /svg/work-icon-svg.html
 {% include archive-single.html type="grid" %}
 {% endfor %}
 </div>
-<h3>Products</h3>
+<h3>Product Design</h3>
 <div class="grid__wrapper"> 
 {% assign items = site.portfolio | where:"category","products" | sort: 'year' | reverse  %}
 {% for post in items %}
 {% include archive-single.html type="grid" %}
 {% endfor %}
 </div> 
-<h3>Identities</h3>
+<h3>Brand and Identity</h3>
 <div class="grid__wrapper">
 {% assign items = site.portfolio | where:"category","identity" | sort: 'year' | reverse  %}
 {% for post in items %}

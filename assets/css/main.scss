@@ -83,7 +83,14 @@ $portfolio-link-color: #9bc1cb;
   }
 
 // end Utility
-
+figcaption {
+    color: #c3c3c3;
+    margin: 0 auto;
+    font-size: 0.6em;
+}
+figure {
+    margin: 4em 0;
+}
 .page__footer {
   color: #fff !important; // override
 }

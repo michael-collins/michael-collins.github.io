@@ -40,19 +40,10 @@ In 2017, the OER Schema project was awarded a Discovery Grant through the [Cente
 
 View the project here: [OERSchema.org]({{page.project-link}})
 
-### Related writings:
-
-[Interoperable OER](https://medium.com/@_mike_collins/interoperable-open-education-resources-oer-2dcb8b3f2ec9)
-
-### Workshops:
+### Related writing:
 
 - [OER Summer Workshop, 2016](https://medium.com/@_mike_collins/oer-summer-workshop-psu-23ca239b73e5)
-- [OER Camp, 2018](https://medium.com/@katrina.m.wehr/oer-camp-2018-summary-2c8b34a3f341)
-
-**OER Camp, 2018** was made possible by [Center for Pedagogy in Art and Design](https://cpad.psu.edu/) (C-PAD) discovery grant award.
-
-### Related Projects:
-
-Headless Authoring eXperience: [haxtheweb.org](http://haxtheweb.org)
+- [Interoperable OER](https://medium.com/@_mike_collins/interoperable-open-education-resources-oer-2dcb8b3f2ec9)
+- [OER Camp, 2018](https://medium.com/@katrina.m.wehr/oer-camp-2018-summary-2c8b34a3f341), **OER Camp, 2018** was made possible by [Center for Pedagogy in Art and Design](https://cpad.psu.edu/) (C-PAD) discovery grant award.
 
 {% include gallery-advanced size="1" caption="" %}
