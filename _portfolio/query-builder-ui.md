@@ -1,7 +1,7 @@
 ---
 title: Query Builder UI Wireframes
 category: experiments
-excerpt: 2016 - present
+excerpt: 2018
 year: 2018
 #project-link: "http://oerschema.org"
 header:

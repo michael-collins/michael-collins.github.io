@@ -12,10 +12,10 @@ sidebar:
     image:
     image_alt:
     text:
-#gallery:
-  #- url: /assets/images/portfolio/oerschema-project/oerschema-project-stickers.jpg
-  #  image_path: assets/images/portfolio/oerschema-project/oerschema-project-stickers.jpg
-  #  alt: "oer schema project image"
+# gallery:
+#   - url: /assets/images/portfolio/experiments/dragdrop.gif
+#     image_path: assets/images/portfolio/experiments/dragdrop.gif
+#     alt: "drag and drop interface gif"
 ---
 
 {% include gallery-advanced size="1" caption="" %}
@@ -24,31 +24,33 @@ sidebar:
 
 [Learning Pipeline](https://dmd-program.github.io/pipeline/outline)
 
-### Vuejs
-
-#### Rendering some JSON
+### Rendering JSON with VUEJS
 
 <p data-height="460" data-theme-id="light" data-slug-hash="ZMVZgx" data-default-tab="js,result" data-user="michael-collins" data-pen-title="vue js JSON" class="codepen">See the Pen <a href="https://codepen.io/michael-collins/pen/ZMVZgx/">vue js JSON</a> by Michael (<a href="https://codepen.io/michael-collins">@michael-collins</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-### Bits of UI
 
-#### Accessible Drag and Drop
+
+### Accessible Drag and Drop
+
 
 <p data-height="460" data-theme-id="light" data-slug-hash="memxpe" data-default-tab="result" data-user="michael-collins" data-pen-title="HAX Accessible" class="codepen">See the Pen <a href="https://codepen.io/michael-collins/pen/memxpe/">HAX Accessible</a> by Michael (<a href="https://codepen.io/michael-collins">@michael-collins</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-#### CSS Grid
+{% include figure image_path="/assets/images/portfolio/experiments/dragdrop.gif" alt="Drag and drop animated gif" %}
 
-<p data-height="460" data-theme-id="light" data-slug-hash="JamrYY" data-default-tab="result" data-user="michael-collins" data-pen-title="preserving auto-placement with position: absolute" class="codepen">See the Pen <a href="https://codepen.io/michael-collins/pen/JamrYY/">preserving auto-placement with position: absolute</a> by Michael (<a href="https://codepen.io/michael-collins">@michael-collins</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+
+### CSS Grid
+
+<p data-height="600" data-theme-id="light" data-slug-hash="JamrYY" data-default-tab="result" data-user="michael-collins" data-pen-title="preserving auto-placement with position: absolute" class="codepen">See the Pen <a href="https://codepen.io/michael-collins/pen/JamrYY/">preserving auto-placement with position: absolute</a> by Michael (<a href="https://codepen.io/michael-collins">@michael-collins</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-#### LMS sections card element
+### LMS sections card element
 
 <p data-height="460" data-theme-id="light" data-slug-hash="pEVkaj" data-default-tab="result" data-user="michael-collins" data-pen-title="CIS Dashboard - Course Item" class="codepen">See the Pen <a href="https://codepen.io/michael-collins/pen/pEVkaj/">CIS Dashboard - Course Item</a> by Michael (<a href="https://codepen.io/michael-collins">@michael-collins</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-#### Course config nodes experiment
+### Course config nodes experiment
 
 <p data-height="460" data-theme-id="light" data-slug-hash="bpWEPM" data-default-tab="result" data-user="michael-collins" data-pen-title="Node Editor UI" class="codepen">See the Pen <a href="https://codepen.io/michael-collins/pen/bpWEPM/">Node Editor UI</a> by Michael (<a href="https://codepen.io/michael-collins">@michael-collins</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>

@@ -35,6 +35,9 @@ I am currently working with the HAX development team at Penn State to integrate 
 
 In 2017, the OER Schema project was awarded a Discovery Grant through the [Center for Pedagogy in Art and Design](https://cpad.psu.edu/) (C-PAD).
 
+{% include figure image_path="/assets/images/portfolio/oerschema-project/oerschema-diagram.jpg" alt="rough schema diagram" caption="A rough diagram of the schema relationships." %}
+
+
 View the project here: [OERSchema.org]({{page.project-link}})
 
 ### Related writings:
