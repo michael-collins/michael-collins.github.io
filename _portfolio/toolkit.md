@@ -21,6 +21,6 @@ gallery:
     alt: "learning task development whiteboard"
 
 ---
-
+I modeled this toolkit after reading the book, _[10 Steps to Complex Learning](http://www.tensteps.info/)_. This toolkit is not meant as a full representation of the ideas in the book, rather a lightweight way of visualizing learning tasks when building courses.
 
 {% include gallery-advanced size="1" caption="" %}
