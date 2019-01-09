@@ -29,16 +29,12 @@ sidebar:
 <p data-height="460" data-theme-id="light" data-slug-hash="ZMVZgx" data-default-tab="js,result" data-user="michael-collins" data-pen-title="vue js JSON" class="codepen">See the Pen <a href="https://codepen.io/michael-collins/pen/ZMVZgx/">vue js JSON</a> by Michael (<a href="https://codepen.io/michael-collins">@michael-collins</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-
-
 ### Accessible Drag and Drop
-
 
 <p data-height="460" data-theme-id="light" data-slug-hash="memxpe" data-default-tab="result" data-user="michael-collins" data-pen-title="HAX Accessible" class="codepen">See the Pen <a href="https://codepen.io/michael-collins/pen/memxpe/">HAX Accessible</a> by Michael (<a href="https://codepen.io/michael-collins">@michael-collins</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 {% include figure image_path="/assets/images/portfolio/experiments/dragdrop.gif" alt="Drag and drop animated gif" %}
-
 
 ### CSS Grid
 
@@ -50,10 +46,6 @@ sidebar:
 <p data-height="460" data-theme-id="light" data-slug-hash="pEVkaj" data-default-tab="result" data-user="michael-collins" data-pen-title="CIS Dashboard - Course Item" class="codepen">See the Pen <a href="https://codepen.io/michael-collins/pen/pEVkaj/">CIS Dashboard - Course Item</a> by Michael (<a href="https://codepen.io/michael-collins">@michael-collins</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-### Course config nodes experiment
-
-<p data-height="460" data-theme-id="light" data-slug-hash="bpWEPM" data-default-tab="result" data-user="michael-collins" data-pen-title="Node Editor UI" class="codepen">See the Pen <a href="https://codepen.io/michael-collins/pen/bpWEPM/">Node Editor UI</a> by Michael (<a href="https://codepen.io/michael-collins">@michael-collins</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 
 
