@@ -4,6 +4,7 @@ category: webprojects
 excerpt: 2016 - present
 year: 2016
 project-link: "http://oerschema.org"
+redirect_from: "/blog/2016/9/29/oer-summer-workshop-psu"
 header:
   image: /assets/images/portfolio/oerschema-project/oerschema-project-02.png
   teaser: /assets/images/portfolio/oerschema-project/oerschema-project-thumb.png
