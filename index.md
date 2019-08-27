@@ -7,7 +7,7 @@ header:
   overlay_color: "#37c6fd"
   overlay_filter: "0.10"
   overlay_image: /assets/images/front-banner.jpg
- 
+author_profile: true
 ---
 # Recent
 

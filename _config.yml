@@ -84,9 +84,9 @@ analytics:
 # Site Author
 author:
   name             : "Michael Collins"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.jpg"
   bio              : "Designer and Educator"
-  location         : "U.S.A."
+  location         : #"U.S.A."
   email            :
   uri              :
   bitbucket        :
@@ -112,6 +112,13 @@ author:
   weibo            :
   xing             :
   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/_mike_collins"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/michael-collins"
 
 
 # Reading Files
