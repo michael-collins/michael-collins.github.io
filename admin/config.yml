@@ -1,0 +1,13 @@
+backend:
+  name: github
+  repo: michael-collins/michael-collins.github.io
+
+media_folder: "images/uploads"
+
+collections:
+  - name: "website-settings"
+    label: "Website Settings"
+    files:
+      - label: "Website Settings"
+        name: "site"
+        file: "_data/site.yml"
