@@ -1,5 +1,5 @@
 ---
-title: "PRIVY"
+title: PRIVY
 category:
   - exhibitions
 excerpt: 2016
@@ -8,17 +8,17 @@ header:
   image: /assets/images/portfolio/privy-exhibition/privy-gallery-02.jpg
   teaser: /assets/images/portfolio/privy-exhibition/privy-gallery-02.jpg
 sidebar:
-  - title:
-    image: 
-    image_alt: "logo"
-    text:
+  - title: null
+    image: null
+    image_alt: logo
+    text: null
 gallery:
   - url: /assets/images/portfolio/privy-exhibition/privy-gallery-01.jpg
     image_path: assets/images/portfolio/privy-exhibition/privy-gallery-01.jpg
-    alt: "PRIVY exhibition gallery image"
+    alt: PRIVY exhibition gallery image
   - url: /assets/images/portfolio/privy-exhibition/privy-gallery-02.jpg
     image_path: assets/images/portfolio/privy-exhibition/privy-gallery-02.jpg
-    alt: "PRIVY exhibition gallery image"
+    alt: PRIVY exhibition gallery image
 ---
 Single-channel video, HTML, Javascript
 
