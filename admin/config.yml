@@ -23,48 +23,65 @@ collections:
       - label: "title"
         name: "title"
         widget: "string"
+        required: false
       - label: "category"
         name: "category"
-        widget: "string"
+        widget: 'select'
+        options: ['products', 'identity', 'experiments', 'exhibitions', 'webprojects' ]
+        multiple: true
+        required: false
       - label: "excerpt"
         name: "excerpt"
         widget: "string"
+        required: false
       - label: "year"
         name: "year"
         widget: "string"
+        required: false
       - label: "Header"
         name: "header"
         widget: 'object'
+        required: false
         fields:
           - label: "Image"
             name: "image"
             widget: "image"
+            required: false
           - label: "Teaser"
             name: "teaser"
             widget: "image"
+            required: false
       - label: "sidebar"
         name: "sidebar"
         widget: 'list'
+        required: false
         fields:
           - label: "Title"
             name: "title"
             widget: "string"
+            required: false
           - label: "Image"
             name: "image"
             widget: "image"
+            required: false
           - label: "Image Alt"
             name: "image_alt"
             widget: "string"
+            required: false
           - label: "Text"
             name: "text"
             widget: "string"
+            required: false
       - label: "gallery"
         name: "gallery"
         widget: 'list'
+        required: false
         fields:
           - label: "Url"
             name: "url"
             widget: "image"
+            required: false
           - label: "Alt"
             name: "alt"
             widget: "string"
+            required: false
