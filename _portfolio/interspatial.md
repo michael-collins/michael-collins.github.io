@@ -1,6 +1,7 @@
 ---
 title: "Interspatial"
-category: exhibitions
+category:
+  - exhibitions
 excerpt: 2011
 year: 2011
 header:

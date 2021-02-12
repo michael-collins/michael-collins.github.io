@@ -1,6 +1,7 @@
 ---
 title: "Standard Desk"
-category: products
+category:
+  - products
 excerpt: 2017
 year: 2017
 header:

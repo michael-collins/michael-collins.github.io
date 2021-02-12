@@ -1,6 +1,7 @@
 ---
 title: "Music Device"
-category: products
+category:
+  - products
 excerpt: 2013
 year: 2013
 header:

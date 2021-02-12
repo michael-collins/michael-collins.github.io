@@ -1,6 +1,7 @@
 ---
 title: "ELMS Learning Network Branding"
-category: identity
+category:
+  - identity
 excerpt: 2013
 year: 2013
 header:

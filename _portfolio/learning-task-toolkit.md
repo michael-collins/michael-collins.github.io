@@ -1,6 +1,7 @@
 ---
 title: Learning Task Development Toolkit
-category: experiments
+category:
+  - experiments
 excerpt: 2016
 year: 2016
 project-link: /assets/images/portfolio/experiments/nodes_learning-tasks-development.pdf

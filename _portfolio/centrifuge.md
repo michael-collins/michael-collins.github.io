@@ -1,6 +1,7 @@
 ---
 title: "Centrifuge"
-category: products
+category:
+  - products
 excerpt: 2015
 year: 2015
 header:

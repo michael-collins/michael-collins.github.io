@@ -1,6 +1,7 @@
 ---
 title: "Compy Desk Triple Aught One (001)"
-category: products
+category:
+  - products
 excerpt: 2011
 year: 2011
 header:

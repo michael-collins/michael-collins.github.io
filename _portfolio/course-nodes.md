@@ -1,6 +1,7 @@
 ---
 title: Configuration nodes
-category: experiments
+category:
+  - experiments
 excerpt: 2018
 year: 2018
 #project-link: "http://oerschema.org"

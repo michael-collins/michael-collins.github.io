@@ -1,6 +1,7 @@
 ---
 title: OER Schema
-category: webprojects
+category:
+  - webprojects
 excerpt: 2016 - present
 year: 2016
 project-link: "http://oerschema.org"

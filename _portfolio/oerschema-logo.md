@@ -1,6 +1,7 @@
 ---
 title: "OER Schema Branding"
-category: identity
+category:
+  - identity
 excerpt: 2016
 year: 2016
 header:

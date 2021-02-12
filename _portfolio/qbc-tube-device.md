@@ -1,6 +1,7 @@
 ---
 title: "QBC Tube Device"
-category: products
+category:
+  - products
 excerpt: 2014
 year: 2014
 header:

@@ -1,6 +1,7 @@
 ---
 title: UI and Web Experiments
-category: experiments
+category:
+  - experiments
 excerpt: 2015 - present
 year: 2018
 #project-link: "http://oerschema.org"

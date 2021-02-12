@@ -1,6 +1,7 @@
 ---
 title: "PRIVY"
-category: exhibitions
+category:
+  - exhibitions
 excerpt: 2016
 year: 2016
 header:
