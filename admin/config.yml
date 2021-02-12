@@ -11,3 +11,7 @@ collections:
       - label: "Website Settings"
         name: "site"
         file: "_data/site.yml"
+        fields:
+          - label: Title
+            name: title
+            widget: "string"
