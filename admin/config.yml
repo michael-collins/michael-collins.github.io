@@ -38,10 +38,15 @@ collections:
         name: "year"
         widget: "string"
         required: false
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
+        hint: 'Main content goes here.'
       - label: "Header"
         name: "header"
         widget: 'object'
         required: false
+        collapsed: true
         fields:
           - label: "Image"
             name: "image"
@@ -53,6 +58,7 @@ collections:
             required: false
       - label: "sidebar"
         name: "sidebar"
+        collapsed: true
         widget: 'list'
         required: false
         fields:
@@ -75,6 +81,7 @@ collections:
       - label: "gallery"
         name: "gallery"
         widget: 'list'
+        collapsed: true
         required: false
         fields:
           - label: "Url"
