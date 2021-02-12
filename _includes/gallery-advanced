@@ -48,18 +48,18 @@
       >
         <img src=
           {% if img.image_path contains "://" %}
-            "{{ img.image_path }}"
+            "{{ img.url }}"
           {% else %}
-            "{{ img.image_path | absolute_url }}"
+            "{{ img.url | absolute_url }}"
           {% endif %}
           alt="{% if img.alt %}{{ img.alt }}{% endif %}">
       </a>
     {% else %}
       <img src=
         {% if img.image_path contains "://" %}
-          "{{ img.image_path }}"
+          "{{ img.url }}"
         {% else %}
-          "{{ img.image_path | absolute_url }}"
+          "{{ img.url | absolute_url }}"
         {% endif %}
         alt="{% if img.alt %}{{ img.alt }}{% endif %}">
     {% endif %}
