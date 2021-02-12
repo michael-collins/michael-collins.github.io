@@ -15,3 +15,56 @@ collections:
           - label: Title
             name: title
             widget: "string"
+  - name: "portfolio"
+    label: "Portfolio"
+    folder: "_portfolio"
+    create: true
+    fields:
+      - label: "title"
+        name: "title"
+        widget: "string"
+      - label: "category"
+        name: "category"
+        widget: "string"
+      - label: "excerpt"
+        name: "excerpt"
+        widget: "string"
+      - label: "year"
+        name: "year"
+        widget: "string"
+      - label: "Header"
+        name: "header"
+        widget: 'object'
+        fields:
+          - label: "Image"
+            name: "image"
+            widget: "image"
+          - label: "Teaser"
+            name: "teaser"
+            widget: "image"
+      - label: "sidebar"
+        name: "sidebar"
+        widget: 'list'
+        fields:
+          - label: "Title"
+            name: "title"
+            widget: "string"
+          - label: "Image"
+            name: "image"
+            widget: "image"
+          - label: "Image Alt"
+            name: "image_alt"
+            widget: "string"
+          - label: "Text"
+            name: "text"
+            widget: "string"
+      - label: "gallery"
+        name: "gallery"
+        widget: 'list'
+        fields:
+          - label: "Url"
+            name: "url"
+            widget: "image"
+          - label: "Alt"
+            name: "alt"
+            widget: "string"
