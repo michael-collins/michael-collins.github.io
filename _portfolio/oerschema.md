@@ -4,7 +4,6 @@ category:
   - webprojects
 excerpt: 2016 - present
 year: 2016
-project-link: "http://oerschema.org"
 redirect_from: "/blog/2016/9/29/oer-summer-workshop-psu"
 header:
   image: /assets/images/portfolio/oerschema-project/oerschema-project-02.png
@@ -40,7 +39,7 @@ In 2017, the OER Schema project was awarded a Discovery Grant through the [Cente
 {% include figure image_path="/assets/images/portfolio/oerschema-project/oerschema-diagram.jpg" alt="rough schema diagram" caption="A rough diagram of the schema relationships." %}
 
 
-View the project here: [OERSchema.org]({{page.project-link}})
+View the project here: [OERSchema.org](http://oerschema.org)
 
 ### Related writing:
 
