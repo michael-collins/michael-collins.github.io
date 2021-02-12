@@ -15,6 +15,33 @@ collections:
           - label: Title
             name: title
             widget: "string"
+  - name: 'pages'
+    label: 'Pages'
+    label_singular: 'Page'
+    create: false
+    files:
+      - label: "Front Page"
+        name: "index"
+        file: "index.md"
+        fields:
+          - label: 'Permalink'
+            name: 'permalink'
+            widget: "string"
+          - label: 'Body'
+            name: 'body'
+            widget: 'markdown'
+            hint: 'Main content goes here.'
+      - label: "Curriculum"
+        name: "curriculum"
+        file: "curriculum.md"
+        fields:
+          - label: 'Permalink'
+            name: 'permalink'
+            widget: "string"
+          - label: 'Body'
+            name: 'body'
+            widget: 'markdown'
+            hint: 'Main content goes here.'
   - name: "portfolio"
     label: "Portfolio"
     folder: "_portfolio"

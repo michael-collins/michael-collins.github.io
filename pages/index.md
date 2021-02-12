@@ -8,6 +8,7 @@ header:
   overlay_filter: "0.10"
   overlay_image: /assets/images/front-banner.jpg
 author_profile: true
+permalink: /
 ---
 # Recent
 
