@@ -1,35 +1,36 @@
 ---
-title: "American Cheese"
-category: "exhibitions"
+title: American Cheese
+category:
+  - exhibitions
 excerpt: 2012
 year: 2012
 header:
   image: /assets/images/portfolio/american-cheese/americancheese_z-corp_01.jpg
   teaser: /assets/images/portfolio/american-cheese/americancheese_z-corp_01.jpg
 sidebar:
-  - title:
-    image:
-    image_alt:
-    text:
+  - ? title
+    ? image
+    ? image_alt
+    ? text
 gallery:
   - url: /assets/images/portfolio/american-cheese/AmericanCheesePanel-1.jpg
     image_path: assets/images/portfolio/american-cheese/AmericanCheesePanel-1.jpg
-    alt: "Image of American Cheese animated projection"
+    alt: Image of American Cheese animated projection
   - url: /assets/images/portfolio/american-cheese/AmericanCheesePanel-2.jpg
     image_path: assets/images/portfolio/american-cheese/AmericanCheesePanel-2.jpg
-    alt: "Image of American Cheese animated projection"
+    alt: Image of American Cheese animated projection
   - url: /assets/images/portfolio/american-cheese/AmericanCheesePanel-3.jpg
     image_path: assets/images/portfolio/american-cheese/AmericanCheesePanel-3.jpg
-    alt: "Image of American Cheese animated projection"
+    alt: Image of American Cheese animated projection
   - url: /assets/images/portfolio/american-cheese/AmericanCheese_z-corp_02.jpg
     image_path: assets/images/portfolio/american-cheese/AmericanCheese_z-corp_02.jpg
-    alt: "Image of American Cheese 3D Print"
+    alt: Image of American Cheese 3D Print
   - url: /assets/images/portfolio/american-cheese/AmericanCheeseThreePanels_02.jpg
     image_path: assets/images/portfolio/american-cheese/AmericanCheeseThreePanels_02.jpg
-    alt: "Image of American Cheese animated projection"
+    alt: Image of American Cheese animated projection
   - url: /assets/images/portfolio/american-cheese/ac-concept.jpg
     image_path: assets/images/portfolio/american-cheese/ac-concept.jpg
-    alt: "Image of American Cheese animated projection"
+    alt: Image of American Cheese animated projection
 ---
 3-channel Video, Z-Corp 3D Prints  
 Rear Projection
