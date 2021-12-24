@@ -1,5 +1,5 @@
 ---
-title: UI and Web Experiments
+title: UI Bits
 category:
   - experiments
 excerpt: 2015 - present
@@ -19,18 +19,10 @@ sidebar:
 #     alt: "drag and drop interface gif"
 ---
 
-{% include gallery-advanced size="1" caption="" %}
-
-### HTML Mockups
-
-[Learning Pipeline](https://dmd-program.github.io/pipeline/outline)
-
-### Rendering JSON with VUEJS
-
-<p data-height="460" data-theme-id="light" data-slug-hash="ZMVZgx" data-default-tab="js,result" data-user="michael-collins" data-pen-title="vue js JSON" class="codepen">See the Pen <a href="https://codepen.io/michael-collins/pen/ZMVZgx/">vue js JSON</a> by Michael (<a href="https://codepen.io/michael-collins">@michael-collins</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 ### Accessible Drag and Drop
+
+In this experiment, I combined drag and drop code from a Sitepoint.com tutorial with Zurb Foundation theme framework and grid system to create a keyboard accessible drag and drop interface. The interface explains with labels how to interact as the user moves objects into drop zones.
 
 <p data-height="460" data-theme-id="light" data-slug-hash="memxpe" data-default-tab="result" data-user="michael-collins" data-pen-title="HAX Accessible" class="codepen">See the Pen <a href="https://codepen.io/michael-collins/pen/memxpe/">HAX Accessible</a> by Michael (<a href="https://codepen.io/michael-collins">@michael-collins</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
