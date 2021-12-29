@@ -2,17 +2,28 @@
 layout: default
 ---
 
+{% if page.url contains "/design/" %}
+<nav class="breadcrumbs back-nav"><a href="{{ base_url }}/design/" class="text-white">← Design</a><span class="text-white"> / </span><span class="current-title text-white">{{ page.title }}</span></nav>
+{% elsif page.url contains "/curriculum/"%}
+<nav class="breadcrumbs back-nav"><a href="{{ base_url }}/curriculum/">← Curriculum</a> / <span class="current-title">{{ page.title }}</span></nav>
+{% elsif page.url contains "/publications/"%}
+<nav class="breadcrumbs back-nav"><a href="{{ base_url }}/publications/">← Publications</a> / <span class="current-title">{{ page.title }}</span></nav>
+{% else %}
+{% endif %}
+
+{% if page.url != "/" and page.breadcrumbs != "false" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
 {% elsif page.header.video.id and page.header.video.provider %}
   {% include page__hero_video.html %}
 {% endif %}
 
-{% if page.url != "/" and site.breadcrumbs %}
-  {% unless paginator %}
-    {% include breadcrumbs.html %}
-  {% endunless %}
-{% endif %}
+
 
 <div id="main" role="main">
   {% include sidebar.html %}

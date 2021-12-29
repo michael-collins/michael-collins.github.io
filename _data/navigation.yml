@@ -1,8 +1,10 @@
 # main links
 main:
-  - title: "Recent"
+  - title: "About"
     url: /
-  - title: "Work Archive"
-    url: /portfolio/
+  - title: "Design"
+    url: /design/
+  - title: "Publications"
+    url: /publications/
   - title: "Curriculum"
     url: /curriculum/

@@ -36,6 +36,8 @@ gallery:
     alt: "Centrifuge sheet 7"
   
 ---
+Tools: Photoshop
+
 I collaborated with mechanical engineers at a medical device company to develop these centrifuge concept drawings. In this design, I repeated design cues that I developed from a previously executed design concept.
 
 {% include gallery-advanced size="1" caption="" %}

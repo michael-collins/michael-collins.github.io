@@ -64,7 +64,7 @@ $header-background-color:#333;
 $header-link-color:#efefef;
 $portfolio-background-color: #424242;
 $portfolio-header-color: #424242;
-$portfolio-link-color: #9bc1cb;
+$portfolio-link-color: #fff;
 .page__content {
   .notice,
   .notice--primary,
@@ -256,6 +256,11 @@ body.portfolio-theme {
     .archive a {
         text-transform: uppercase;
         font-weight: 400;
+        // text-decoration: underline;
+        color: #333;
+        &:hover {
+            color:#000;
+        }
     }
     .archive__item-excerpt {
         margin-top: 0;
@@ -311,5 +316,34 @@ body.portfolio-theme {
     li {
         display: block;
         border-bottom: 1px solid #ff6559;
+    }
+}
+
+.breadcrumbs.back-nav {
+    // background: #fff;
+    color:#000;
+    -webkit-animation: 0s;
+    animation: 0s;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    // max-width: 100%;
+    padding: 1em 1em;
+    font-size: smaller;
+    border-top: 1px solid white;
+    a:focus, a:visited, a:active {
+    color: #000;
+    }
+    a:hover {
+        
+        text-decoration: underline;
+    }
+    span.current-title {
+        font-weight: bold; 
+    }
+    span.text-white {
+        color:white;
+    }
+    a.text-white {
+        color:white;
     }
 }

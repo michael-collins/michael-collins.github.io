@@ -1,13 +1,14 @@
 ---
 layout: archive
-title: Curriculum
+title: "Curriculum"
 permalink: /curriculum/
 author_profile: false
 classes:
   - curriculum-theme
-header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/dmd-website-banner.jpg
+# header:
+#   overlay_color: "#5e616c"
+#   overlay_image: /assets/images/dmd-website-banner.jpg
+breadcrumbs: false
 ---
 
 

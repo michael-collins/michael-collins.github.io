@@ -40,6 +40,7 @@ gallery:
     alt: "thriving ag project image"
 
 ---
+Tools: Jekyll, Git Pages and Actions, Forestry.io
 
 ## The brief
 

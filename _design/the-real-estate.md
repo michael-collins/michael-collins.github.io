@@ -26,6 +26,9 @@ gallery:
     image_path: assets/images/portfolio/the-real-estate/theRealEstate_02.jpg
     alt: "Image of The Real Estate animated projection"
 ---
+Tools: Maya, AfterEffects
+
+Format:  
 Single-channel Video  
 Front Projection
 

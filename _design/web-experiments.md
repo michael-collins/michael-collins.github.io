@@ -18,8 +18,6 @@ sidebar:
 #     image_path: assets/images/portfolio/experiments/dragdrop.gif
 #     alt: "drag and drop interface gif"
 ---
-
-
 ### Accessible Drag and Drop
 
 In this experiment, I combined drag and drop code from a Sitepoint.com tutorial with Zurb Foundation theme framework and grid system to create a keyboard accessible drag and drop interface. The interface explains with labels how to interact as the user moves objects into drop zones.
@@ -30,11 +28,14 @@ In this experiment, I combined drag and drop code from a Sitepoint.com tutorial 
 {% include figure image_path="/assets/images/portfolio/experiments/dragdrop.gif" alt="Drag and drop animated gif" %}
 
 ### CSS Grid
+In this example, I explored how to use CSS grid to create text and image layouts that reflow according to the browesr width without using a bloated theme framework. While this isn't particularly new or interesting, the CSS grid spec contains new concepts, and so this was used as a learning opportunity to better understand how it works.
 
 <p data-height="600" data-theme-id="light" data-slug-hash="JamrYY" data-default-tab="result" data-user="michael-collins" data-pen-title="preserving auto-placement with position: absolute" class="codepen">See the Pen <a href="https://codepen.io/michael-collins/pen/JamrYY/">preserving auto-placement with position: absolute</a> by Michael (<a href="https://codepen.io/michael-collins">@michael-collins</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 ### LMS sections card element
+
+In this example, I used the Zurb Foundation framework to create a UI for an online course administration dashboard.
 
 <p data-height="460" data-theme-id="light" data-slug-hash="pEVkaj" data-default-tab="result" data-user="michael-collins" data-pen-title="CIS Dashboard - Course Item" class="codepen">See the Pen <a href="https://codepen.io/michael-collins/pen/pEVkaj/">CIS Dashboard - Course Item</a> by Michael (<a href="https://codepen.io/michael-collins">@michael-collins</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>

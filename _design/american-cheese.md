@@ -8,10 +8,10 @@ header:
   image: /assets/images/portfolio/american-cheese/americancheese_z-corp_01.jpg
   teaser: /assets/images/portfolio/american-cheese/americancheese_z-corp_01.jpg
 sidebar:
-  - ? title
-    ? image
-    ? image_alt
-    ? text
+  - title:
+    image:
+    image_alt:
+    text:
 gallery:
   - url: /assets/images/portfolio/american-cheese/AmericanCheesePanel-1.jpg
     image_path: assets/images/portfolio/american-cheese/AmericanCheesePanel-1.jpg

@@ -17,7 +17,7 @@ url                      : "https://michaelcollins.xyz"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "michael-collins/michael-collins.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
@@ -85,7 +85,7 @@ analytics:
 author:
   name             : "Michael Collins"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "Designer and Educator"
+  bio              : "Designer, Educator, Technical Generalist"
   location         : #"U.S.A."
   email            :
   uri              :
@@ -101,13 +101,13 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "michael-collins-573a775" # (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          :
+  twitter          : "@_mike_collins"
   vine             :
   weibo            :
   xing             :
@@ -263,10 +263,10 @@ defaults:
       comments: # true
       share: true
       related: true
-  # _portfolio
+  # design
   - scope:
       path: ""
-      type: portfolio
+      type: design
     values:
       layout: single
       author_profile: false
@@ -285,12 +285,26 @@ defaults:
       classes:
         - curriculum-theme
         - content
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: false
+      share: false
+      classes:
+        - curriculum-theme
+        - content
 
 collections:
-  portfolio:
+  design:
     output: true
     permalink: /:collection/:path/
   curriculum:
+    output: true
+    permalink: /:collection/:path/
+  publications:
     output: true
     permalink: /:collection/:path/
 

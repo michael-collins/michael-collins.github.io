@@ -3,57 +3,11 @@ layout: single
 author_profile: false
 classes:
   - front
-header:
-  overlay_color: "#37c6fd"
-  overlay_filter: "0.10"
-  overlay_image: /assets/images/front-banner.jpg
 author_profile: true
 permalink: /
 ---
-# Recent
+Hello there! I am a multidisciplinary designer and educator with over a decade of experience. I have a passion for open source projects, design in its many forms, and I enjoy reading and writing about how design can be applied for positive future change.
 
-## EDUI Conference, 2018
+### Background
 
-Presentation Slides: [REMIXING OPEN CONTENT + PEDAGOGY WITH OERSCHEMA](https://docs.google.com/presentation/d/e/2PACX-1vSul0t5D8mE7e_pQqHd-7XKMBwMiNWvlX_qkBzwnurM0zcbcrM0EkylM1T8EpzPKJwcxXfC5uAcsrPs/pub?start=false&loop=false&delayms=3000)
-
-## MADE Symposium, 2018
-
-Workshop Slides: [MADE Symposium Design Thinking Workshop](https://docs.google.com/presentation/d/e/2PACX-1vTcsV4orqbKRF14ArwJybb-8LIC4eFkp0rVE07Qm_hhpcrVIfnXAKbnarO_KCSrXGBAa9S9ABvHSHri/pub?start=false&loop=false&delayms=3000)
-
-## OER Camp, 2018
-
-1. [Workshop documentation](https://open-curriculum.gitbooks.io/oer-camp-2018/content/)
-
-**Related project:**
-
-[OER Schema]({{ "portfolio/oerschema/" | prepend: site.baseurl }})
-
-
-## Digitally Engaged Learning Conference (DEL), 2017
-
-Presentation Slides: [CRITIQUE IN ONLINE LEARNING SPACES](https://docs.google.com/presentation/d/e/2PACX-1vQ9VtqBfe1JEsOJlck8vZsVUuk3RAdLQjfZunBsei2345xLCuXgP9JOKtg9UBVCtF2_DMqlXEF0KMJY/pub?start=false&loop=false&delayms=3000)
-
-> “danger...of judging intellectual phenomena in a subsumptive, uninformed and administrative manner and assimilating them into the prevailing constellations of power which the intellect ought to expose.”
->
->– Adorno
-
-<!-- # Updates -->
-
-{% for post in site.posts %}
-<div class="row">
-	<div class="small-12 columns">
-  	
-		<sub>{{ post.date | date: '%B %d, %Y' }}</sub>
-		<a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
-
-	  	{{ post.excerpt }}
-
-		<ul class="inline-list" style="margin-top:-1em;">
-			{% for category in post.categories %}
-			<li><h6><a href="/#!/{{ category }}"><i class="fa fa-tag"></i> {{ category }}</a></h6></li>
-			{% endfor %}
-		</ul>
-
-	</div>
-</div>
-{% endfor %}
+I started my career designing and creating online learning technology and I am an advocate for the use of open-source technology in online education. My most recent collaboration includes a project called OER Schema – a project that fosters free access to knowledge by helping open educational resources become interoperable. I have have produced a wide breadth of creative work including interactive art installations, web and product design, concept design, 3D animation, and I have been known to make furniture from time to time. The most recent art exhibition work I produced centered around digital privacy, identity, and security and I have two published book chapters that focus on open knowledge and learning. Currently, I work as the lead faculty coordinator for the multi-college Penn State World Campus Digital Multimedia Design program and I enjoy teaching art and design to students in a variety of subjects. I have been a long-time sub-committee volunteer for ACM SIGGRAPH, an organization whose mission is to nurture, champion, and connect researchers and practitioners of Computer Graphics and Interactive Techniques.
