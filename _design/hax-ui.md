@@ -32,6 +32,12 @@ gallery:
   - url: /assets/images/hax-ui-06.jpg
     image_path: assets/images/hax-ui-06.jpg
     alt: "hax ui"
+  - url: /assets/images/hax-ui-07.jpg
+    image_path: assets/images/hax-ui-07.jpg
+    alt: "hax ui"
+  - url: /assets/images/hax-ui-08.png
+    image_path: assets/images/hax-ui-08.png
+    alt: "hax ui"
 ---
 Tools: Figma
 
