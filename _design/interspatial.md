@@ -13,15 +13,15 @@ sidebar:
     image_alt:
     text:
 gallery:
+  - url: /assets/images/portfolio/interspatial/breakdown.jpg
+    image_path: assets/images/portfolio/interspatial/breakdown.jpg
+    alt: "Device parts labelling"
   - url: /assets/images/portfolio/interspatial/07_student_polymer_full_production.559.png
     image_path: assets/images/portfolio/interspatial/07_student_polymer_full_production.559.png
     alt: "Image of Insterspatial projection display"
   - url: /assets/images/portfolio/interspatial/interspatial-front.jpg
     image_path: assets/images/portfolio/interspatial/interspatial-front.jpg
     alt: "Still of Insterspatial multitouch interaction"
-  - url: /assets/images/portfolio/interspatial/breakdown.jpg
-    image_path: assets/images/portfolio/interspatial/breakdown.jpg
-    alt: "Device parts labelling"
 ---  
 Single-channel Video  
 Multi-touch Interface  
@@ -34,5 +34,6 @@ This experience was designed to encourage a user’s recognition that not everyo
 
 {% include video id="19448421" provider="vimeo" %}
 
+{% include video id="20092883" provider="vimeo" %}
 
 {% include gallery-advanced size="1" caption="" %}
