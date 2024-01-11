@@ -6,6 +6,13 @@ author_profile: false
 title-icon: /svg/work-icon-svg.html
 breadcrumbs: false
 ---
+<h3>Art Installations</h3>
+<div class="grid__wrapper">
+{% assign items = site.design | where:"category","exhibitions" | sort: 'year' | reverse %}
+{% for post in items %}
+{% include archive-single.html type="grid" %}
+{% endfor %}
+</div>
 <h3>Web Projects</h3>
 <div class="grid__wrapper">
 {% assign items = site.design | where:"category","webprojects" | sort: 'year' | reverse  %}
@@ -18,13 +25,6 @@ breadcrumbs: false
 {% assign items = site.design | where:"category","experiments" | sort: 'year' | reverse  %}
 {% for post in items %}
 {% include archive-single.html type="grid" size="2" %}
-{% endfor %}
-</div>
-<h3>Art Installations</h3>
-<div class="grid__wrapper">
-{% assign items = site.design | where:"category","exhibitions" | sort: 'year' | reverse %}
-{% for post in items %}
-{% include archive-single.html type="grid" %}
 {% endfor %}
 </div>
 <h3>Product Design</h3>
