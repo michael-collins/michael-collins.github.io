@@ -2,7 +2,8 @@ backend:
   name: github
   repo: michael-collins/michael-collins.github.io
 
-media_folder: "images/uploads"
+media_folder: "assets/images" # Where media files will be stored in the repo
+public_folder: "/assets/images" # The public path to the media files
 
 collections:
   - name: "website-settings"
@@ -24,69 +25,276 @@ collections:
         name: "index"
         file: "index.md"
         fields:
+          - label: 'Layout'
+            name: 'layout'
+            widget: 'select'
+            options: ['home', 'archive', 'single']
+            default: 'home'
+          - label: 'Title'
+            name: 'title'
+            widget: 'string'
           - label: 'Permalink'
             name: 'permalink'
-            widget: "string"
+            widget: 'string'
+          - label: 'Author Profile'
+            name: 'author_profile'
+            widget: 'boolean'
+            default: true
+          - label: 'CSS Classes'
+            name: 'classes'
+            widget: 'list'
+            required: false
+          - label: 'Breadcrumbs'
+            name: 'breadcrumbs'
+            widget: 'boolean'
+            default: false
           - label: 'Body'
             name: 'body'
             widget: 'markdown'
             hint: 'Main content goes here.'
+      - label: "About"
+        name: "about"
+        file: "pages/index.md"
+        fields:
+          - label: 'Layout'
+            name: 'layout'
+            widget: 'select'
+            options: ['archive', 'single']
+            default: 'single'
+          - label: 'Title'
+            name: 'title'
+            widget: 'string'
+          - label: 'Permalink'
+            name: 'permalink'
+            widget: 'string'
+          - label: 'Author Profile'
+            name: 'author_profile'
+            widget: 'boolean'
+            default: true
+          - label: 'CSS Classes'
+            name: 'classes'
+            widget: 'list'
+            required: false
+          - label: 'Breadcrumbs'
+            name: 'breadcrumbs'
+            widget: 'boolean'
+            default: false
+          - label: 'Body'
+            name: 'body'
+            widget: 'markdown'
+            hint: 'About page content goes here.'
+      - label: "Design"
+        name: "design"
+        file: "pages/design.html"
+        fields:
+          - label: 'Layout'
+            name: 'layout'
+            widget: 'select'
+            options: ['collection', 'archive', 'single']
+            default: 'collection'
+          - label: 'Title'
+            name: 'title'
+            widget: 'string'
+          - label: 'Collection'
+            name: 'collection'
+            widget: 'string'
+            default: 'design'
+          - label: 'Permalink'
+            name: 'permalink'
+            widget: 'string'
+          - label: 'Author Profile'
+            name: 'author_profile'
+            widget: 'boolean'
+            default: false
+          - label: 'CSS Classes'
+            name: 'classes'
+            widget: 'list'
+            required: false
+          - label: 'Breadcrumbs'
+            name: 'breadcrumbs'
+            widget: 'boolean'
+            default: false
+          - label: 'Sort By'
+            name: 'sort_by'
+            widget: 'string'
+            required: false
+          - label: 'Sort Order'
+            name: 'sort_order'
+            widget: 'select'
+            options: ['forward', 'reverse']
+            required: false
+          - label: 'Header'
+            name: 'header'
+            widget: 'object'
+            required: false
+            fields:
+              - label: 'Image'
+                name: 'image'
+                widget: 'image'
+                required: false
+              - label: 'Teaser'
+                name: 'teaser'
+                widget: 'image'
+                required: false
+              - label: 'Overlay Color'
+                name: 'overlay_color'
+                widget: 'string'
+                required: false
+              - label: 'Overlay Image'
+                name: 'overlay_image'
+                widget: 'image'
+                required: false
+      - label: "Publications"
+        name: "publications"
+        file: "pages/publications.md"
+        fields:
+          - label: 'Layout'
+            name: 'layout'
+            widget: 'select'
+            options: ['archive', 'single', 'collection']
+            default: 'archive'
+          - label: 'Title'
+            name: 'title'
+            widget: 'string'
+          - label: 'Permalink'
+            name: 'permalink'
+            widget: 'string'
+          - label: 'Author Profile'
+            name: 'author_profile'
+            widget: 'boolean'
+            default: false
+          - label: 'CSS Classes'
+            name: 'classes'
+            widget: 'list'
+            required: false
+          - label: 'Breadcrumbs'
+            name: 'breadcrumbs'
+            widget: 'boolean'
+            default: false
+          - label: 'Header'
+            name: 'header'
+            widget: 'object'
+            required: false
+            fields:
+              - label: 'Image'
+                name: 'image'
+                widget: 'image'
+                required: false
+              - label: 'Teaser'
+                name: 'teaser'
+                widget: 'image'
+                required: false
+              - label: 'Overlay Color'
+                name: 'overlay_color'
+                widget: 'string'
+                required: false
+              - label: 'Overlay Image'
+                name: 'overlay_image'
+                widget: 'image'
+                required: false
+          - label: 'Body'
+            name: 'body'
+            widget: 'markdown'
+            required: false
+            hint: 'Any additional content before publications list.'
       - label: "Curriculum"
         name: "curriculum"
-        file: "curriculum.md"
+        file: "pages/curriculum.md"
         fields:
+          - label: 'Layout'
+            name: 'layout'
+            widget: 'select'
+            options: ['archive', 'single', 'collection']
+            default: 'archive'
+          - label: 'Title'
+            name: 'title'
+            widget: 'string'
           - label: 'Permalink'
             name: 'permalink'
-            widget: "string"
+            widget: 'string'
+          - label: 'Author Profile'
+            name: 'author_profile'
+            widget: 'boolean'
+            default: false
+          - label: 'CSS Classes'
+            name: 'classes'
+            widget: 'list'
+            required: false
+            hint: 'Enter class names like "curriculum-theme"'
+          - label: 'Breadcrumbs'
+            name: 'breadcrumbs'
+            widget: 'boolean'
+            default: false
+          - label: 'Header'
+            name: 'header'
+            widget: 'object'
+            required: false
+            fields:
+              - label: 'Image'
+                name: 'image'
+                widget: 'image'
+                required: false
+              - label: 'Teaser'
+                name: 'teaser'
+                widget: 'image'
+                required: false
+              - label: 'Overlay Color'
+                name: 'overlay_color'
+                widget: 'string'
+                required: false
+              - label: 'Overlay Image'
+                name: 'overlay_image'
+                widget: 'image'
+                required: false
           - label: 'Body'
             name: 'body'
             widget: 'markdown'
-            hint: 'Main content goes here.'
-  - name: "portfolio"
-    label: "Portfolio"
-    folder: "_portfolio"
+            hint: 'Curriculum content goes here.'
+  - name: "design"
+    label: "Design Projects"
+    folder: "_design"
     create: true
+    slug: "{{slug}}"
     fields:
-      - label: "title"
+      - label: "Title"
         name: "title"
         widget: "string"
-        required: false
-      - label: "category"
+      - label: "Categories"
         name: "category"
-        widget: 'select'
-        options: ['products', 'identity', 'experiments', 'exhibitions', 'webprojects' ]
+        widget: "select"
+        options:
+          - "exhibitions"
+          - "webprojects"
+          - "experiments"
+          - "products"
+          - "identity"
         multiple: true
-        required: false
-      - label: "excerpt"
+        required: true
+      - label: "Excerpt"
         name: "excerpt"
         widget: "string"
-        required: false
-      - label: "year"
+      - label: "Year"
         name: "year"
         widget: "string"
+      - label: "Project Link"
+        name: "project-link"
+        widget: "string"
         required: false
-      - label: 'Body'
-        name: 'body'
-        widget: 'markdown'
-        hint: 'Main content goes here.'
       - label: "Header"
         name: "header"
-        widget: 'object'
-        required: false
-        collapsed: true
+        widget: "object"
         fields:
           - label: "Image"
             name: "image"
             widget: "image"
             required: false
-          - label: "Teaser"
+          - label: "Teaser Image"
             name: "teaser"
             widget: "image"
             required: false
-      - label: "sidebar"
+      - label: "Sidebar"
         name: "sidebar"
-        collapsed: true
-        widget: 'list'
+        widget: "list"
         required: false
         fields:
           - label: "Title"
@@ -97,25 +305,31 @@ collections:
             name: "image"
             widget: "image"
             required: false
-          - label: "Image Alt"
+          - label: "Image Alt Text"
             name: "image_alt"
             widget: "string"
             required: false
-          - label: "Text"
+          - label: "Text Content"
             name: "text"
-            widget: "string"
+            widget: "text"
             required: false
-      - label: "gallery"
+      - label: "Gallery"
         name: "gallery"
-        widget: 'list'
-        collapsed: true
-        required: false
+        widget: "list"
         fields:
-          - label: "Url"
+          - label: "Image"
             name: "url"
             widget: "image"
-            required: false
-          - label: "Alt"
+            required: true
+          - label: "Thumbnail"
+            name: "image_path"
+            widget: "image"
+            required: true
+          - label: "Alt Text"
             name: "alt"
             widget: "string"
-            required: false
+            required: true
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+  
