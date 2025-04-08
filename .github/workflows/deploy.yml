@@ -33,9 +33,7 @@ jobs:
         uses: limjh16/jekyll-action-ts@v2
         with:
           enable_cache: true
-          # Specify Jekyll version (recommended)
-          # jekyll_version: '4.4.1'  # Update to match your local Jekyll version
-
+          jekyll_src: ./
       - name: 🚀 Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
