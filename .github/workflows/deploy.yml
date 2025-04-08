@@ -1,37 +1,52 @@
-name: Build and Deploy a Jekyll Site to GitHub Pages
+name: Build and Deploy Jekyll Site
 
 on:
   push:
     branches:
       - master
+  # Optional: Add workflow_dispatch to enable manual triggers
+  workflow_dispatch:
+
+# Prevent concurrent deployments
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   jekyll:
     runs-on: ubuntu-latest
+    timeout-minutes: 15  # Set a timeout to prevent hanging builds
     steps:
-      - name: 📂 setup
-        uses: actions/checkout@v2
-
-        # include the lines below if you are using jekyll-last-modified-at
-        # or if you would otherwise need to fetch the full commit history
-        # however this may be very slow for large repositories!
+      - name: 📂 Checkout repository
+        uses: actions/checkout@v4
+        # If you need full history (for jekyll-last-modified-at plugin)
         # with:
-        # fetch-depth: '0'
-      - name: 💎 setup ruby
+        #   fetch-depth: 0
+
+      - name: 💎 Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.2
+          ruby-version: '3.2'
+          bundler-cache: true  # Explicitly cache gems with bundler
 
-      - name: 🔨 install dependencies & build site
+      - name: 🔨 Install dependencies & build site
         uses: limjh16/jekyll-action-ts@v2
         with:
           enable_cache: true
+          # Specify Jekyll version (recommended)
+          jekyll_version: '4.4.1'  # Update to match your local Jekyll version
 
-      - name: 🚀 deploy
+      - name: 🚀 Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
-          # if the repo you are deploying to is <username>.github.io, uncomment the line below.
-          # if you are including the line below, make sure your source files are NOT in the "main" branch:
+          # If deploying to username.github.io, uncomment:
           # publish_branch: main
+          # Add commit message with useful information
+          commit_message: ${{ github.event.head_commit.message }}
+          # Keep only the latest commit on the gh-pages branch
+          force_orphan: true
+          # Additional metadata for the commit
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
