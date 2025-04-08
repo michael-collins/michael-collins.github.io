@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Content Manager | Michael Collins</title>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body>
+  <!-- Include the script that builds the page and powers Netlify CMS -->
+  <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+  
+  <!-- Optional: Add custom previews for your content types -->
+  <script>
+    // Example: Custom preview for gallery items
+    CMS.registerPreviewStyle("/assets/css/style.css");
+    
+    // Add custom preview templates if needed
+    CMS.registerPreviewTemplate('design', DesignPreview);
+  </script>
+</body>
+</html>
