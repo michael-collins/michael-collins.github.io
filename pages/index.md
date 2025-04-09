@@ -26,5 +26,8 @@ I started my career designing and creating online learning technology and I am a
 
 **Current research interests:**
 
-* Digital pedagogy for the arts and the web
-* Learning software design
+* AI & Arts Pedagogy: [AIUL](https://dmd-program.github.io/aiul/) 
+* Graphics tools: [Graphics Generator](https://dmd-program.github.io/lattice-graphic-generator/)
+* Design ideation tools: [Google Sheet CSV Tumbler](https://michaelcollins.xyz/data-tumbler-googlesheets/?sheet=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fd%2Fe%2F2PACX-1vTlR3laPfnv3w2SCq4YWbu8xdmo-5WFEa6zhX4xBuSDLRvFsXDDE4d6pubJFUsppGmJ5Y781jneXGkx%2Fpub%3Foutput%3Dcsv&seed=384658)
+* Digital pedagogy for the arts and the web [OER Schema](https://oerschema.org)
+* Design for learning software
