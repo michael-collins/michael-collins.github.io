@@ -28,3 +28,4 @@ I started my career designing and creating online learning technology and I am a
 
 * AI & Arts Pedagogy: [AIUL](https://dmd-program.github.io/aiul/) 
 * Digital pedagogy for the arts and the web [OER Schema](https://oerschema.org)
+* Topics on digital surveillance (Projects upcoming) 
